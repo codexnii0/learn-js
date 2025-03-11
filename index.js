@@ -3,6 +3,10 @@ console.log('Hello World!');
 
 let name = 'michael';
 console.log(name);
-
 // cannot be a reserved keyword
 // should be meaningful 
+
+let rate = 0.5;
+rate = 1;
+console.log(rate);
+//let function can change
