@@ -9,4 +9,16 @@ console.log(name);
 let rate = 0.5;
 rate = 1;
 console.log(rate);
-//let function can change
+//let variable can change, so you use const variable
+
+const rates = 0.5;
+//rates = 1; (uncomment this when trying)
+console.log(rates);
+//check now the error
+
+let isOk = true;
+let isNotOk = false;
+//this is example of booleans - it answers true or false question only
+
+let firstName = null;
+//this is how you do an undefine or null
