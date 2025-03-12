@@ -52,9 +52,16 @@ console.log(selectedColors);
 console.log(selectedColors[0]);
 console.log(selectedColors[1]);
 
-// FUNCTIONS-----------
+// FUNCTIONS----------- EXAMPLE 1
 function greet(pangalan) { //<-------- what ever you put inside of parenthesis is called a 'parameter'
     console.log('Hello', pangalan + '!');
 }
 
 greet('Michael'); //<------------ what ever you put inside of parenthesis to call the parameter is 'argument'
+
+// TYPE OF FUNTIONS------------ EXAMPLE 2
+function square(number){
+    return number * number
+}
+
+console.log(square(2));
