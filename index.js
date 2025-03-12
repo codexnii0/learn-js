@@ -29,7 +29,7 @@ console.log(firstName);
 firstName = 'Michael';
 lastName = 'Codex';
 
-//now using Objects
+//now using Objects------------
 let person = {
     firstName: 'Michael',
     lastName: 'Codex'
@@ -45,3 +45,16 @@ person.firstName = 'John';
 console.log(person);
 console.log(person.firstName);
 console.log(person.lastName);
+
+// ARRAYS-----------
+let selectedColors = ['red','blue'];
+console.log(selectedColors);
+console.log(selectedColors[0]);
+console.log(selectedColors[1]);
+
+// FUNCTIONS-----------
+function greet(pangalan) { //<-------- what ever you put inside of parenthesis is called a 'parameter'
+    console.log('Hello', pangalan + '!');
+}
+
+greet('Michael'); //<------------ what ever you put inside of parenthesis to call the parameter is 'argument'
