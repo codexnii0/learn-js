@@ -18,7 +18,30 @@ console.log(rates);
 
 let isOk = true;
 let isNotOk = false;
+console.log(isOk);
+console.log(isNotOk);
 //this is example of booleans - it answers true or false question only
 
 let firstName = null;
+console.log(firstName);
 //this is how you do an undefine or null
+
+firstName = 'Michael';
+lastName = 'Codex';
+
+//now using Objects
+let person = {
+    firstName: 'Michael',
+    lastName: 'Codex'
+};
+
+console.log(person);
+console.log(person.firstName);
+console.log(person.lastName);
+
+//use dot notation to change value inside object
+person.firstName = 'John';
+
+console.log(person);
+console.log(person.firstName);
+console.log(person.lastName);
